@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Registation </title>
+    <style>
+         .container {
+            max-width: 300px;
+            margin: 0 auto;
+            background-color: grey;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            background-color: gray(211, 211, 211, 0.525);
+            height: 50vh;
+        }
+
+        body {
+            margin-left: 20%;
+            margin-right: 20%;
+            
+        }
+
+        table {
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        .center-text {
+            text-align: center;
+        }
+
+        .right-alignment {
+            text-align: right;
+            font-weight: bold;
+        }
+
+        #header1 {
+            font-size: small;
+        }
+
+        #header2 {
+            font-weight: bold;
+        }
+
+        .sm {
+            font-size: 10px;
+        }
+
+        .amount-container {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 8px;
+        }
+
+        .amount-container label {
+            margin: 0;
+            white-space: nowrap;
+        }
+
+        .amount-container input {
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+ <h2 class=" center-text"> User Registration Form </h2>
+ <div class="container">
+   <form>
+    <table>
+        <tr>
+            <td class="left-alignment" style="font-size: 20px ;color: white;" > Full Name </td>
+        </tr>
+        <tr>
+            <td > <Input type="text"  placeholder="Enter Your FullName"></Input></td>
+        </tr>
+
+        <tr>
+            <td class="left-alignment" style="font-size: 20px ;color: white;"> Email </td>
+        </tr>
+        <tr>
+            <td > <Input type="email" placeholder="Enter Your Email "></Input></td>
+        </tr>
+
+        <tr>
+            <td class="left-alignment" style="font-size: 20px ;color: white;"> Password </td>
+        </tr>
+        <tr>
+            <td > <Input type="password" placeholder="Enter Your Password"></Input></td>
+        </tr><br>
+        <tr>
+            <td> Role</td>
+            
+        </tr>
+        <tr>
+            <td>Admin 
+                <input type="radio">
+            User 
+                <input type="radio">
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <p> Already have an account? <a href="Login.html">Sign In </a></p>
+        </tr>
+        <tr>
+            <button >Submit</button>
+        </tr>
+    </table>
+   </form> 
+
+
+
+ </div>
+</body>
+</html>
